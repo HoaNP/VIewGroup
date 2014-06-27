@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GroupView</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hour_hint">HOUR</string>
+    <string name="work_hint">ENTER THE WORK HERE</string>
+    <string name="minute_edit">MINUTE</string>
+    <string name="button_content">ADD WORK</string>
+
+</resources>

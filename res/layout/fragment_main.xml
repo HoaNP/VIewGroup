@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/work_enter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/work_hint"
+        android:lines="1"
+        android:textSize="24px" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="60px"
+            android:layout_height="wrap_content"
+            android:padding="5px"
+            android:text="@string/hour_hint"
+            android:textSize="15px"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <EditText
+            android:id="@+id/hour_edit"
+            android:layout_width="45px"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="12"
+            android:maxLength="2"
+            android:numeric="integer"
+            android:padding="5px"
+            android:textColorHighlight="@color/hint_color"
+            android:textSize="20px" />
+
+        <TextView
+            android:layout_width="75px"
+            android:layout_height="wrap_content"
+            android:padding="5px"
+            android:text="@string/minute_edit"
+            android:textSize="15px"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <EditText
+            android:id="@+id/minute_edit"
+            android:layout_width="45px"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="00"
+            android:maxLength="2"
+            android:numeric="integer"
+            android:padding="5px"
+            android:textColorHighlight="@color/hint_color"
+            android:textSize="20px" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/button_content" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>
